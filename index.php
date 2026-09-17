@@ -11,7 +11,7 @@
   <header class="navbar">
     <div class="brand">
       <img src="logo_nama.png"class="brand-photo">
-      <span>Fadhil.dev</span>
+      <span>M.Fadhil</span>
     </div>
     <nav>
       <a href="#tentang">Tentang</a>
