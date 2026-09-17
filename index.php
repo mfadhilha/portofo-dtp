@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Fadhil Hafidlo Annabil | Portofolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="brand">
+      <img src="logo_nama.png"class="brand-photo">
+      <span>Fadhil.dev</span>
+    </div>
+    <nav>
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="tentang" class="section about-section">
+      <div class="about-photo">
+        <img src="miaw.png">
+      </div>
+      <div class="about-text">
+        <h1>Muhammad Fadhil Hafidlo Annabil</h1>
+        <p>Siswa SMK Telkom Sidoarjo, Jurusan SIJA</p>
+        <p>
+          Saya siswa Sistem Informatika, Jaringan, dan Aplikasi (SIJA) di SMK Telkom Sidoarjo.
+          Saya tertarik pada pengembangan web, jaringan, dan analisis data.
+          Selama sekolah, saya sudah mengerjakan beberapa proyek, mulai dari sistem pelaporan
+          berbasis web sampai website perusahaan bersama tim.
+        </p>
+        <p>
+          Saya terbiasa bekerja dengan Python, PHP, MySQL, HTML, CSS, dan JavaScript,
+          dan senang belajar hal baru di bidang teknologi.
+        </p>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section">
+      <h2>Keahlian</h2>
+      <div class="skill-list">
+        <span class="skill-item">Python</span>
+        <span class="skill-item">PHP & MySQL</span>
+        <span class="skill-item">HTML</span>
+        <span class="skill-item">CSS</span>
+        <span class="skill-item">JavaScript</span>
+      </div>
+    </section>
+
+    <section id="proyek" class="section">
+      <h2>Proyek</h2>
+      <div class="project-list">
+        <article class="project-card">
+          <h3>SILAPOR</h3>
+          <p>Sistem pelaporan berbasis web untuk sekolah, dibangun dengan PHP dan MySQL.</p>
+        </article>
+        <article class="project-card">
+          <h3>Egravia</h3>
+          <p>Website perusahaan ekspor hasil laut, dikerjakan bersama tim.</p>
+          <a href="https://egravia.com" target="_blank">Kunjungi situs</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak" class="section">
+      <h2>Hubungi Saya</h2>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="telepon">Nomor Telepon</label>
+          <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx">
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan di sini" required></textarea>
+        </div>
+        <button type="submit">Kirim Pesan</button>
+      </form>
+
+      <div class="contact-links">
+        <a class="contact-box" href="mailto:dillf686@gmail.com">Email</a>
+        <a class="contact-box" href="https://wa.me/628885349112" target="_blank">WhatsApp</a>
+        <a class="contact-box" href="https://github.com/mfadhilha" target="_blank">GitHub</a>
+        <a class="contact-box" href="https://www.linkedin.com/in/muhammad-fadhil-hafidlo-annabil-48a67b421/" target="_blank">LinkedIn</a>
+        <a class="contact-box" href="https://www.instagram.com/fdhil_h.a/" target="_blank">Instagram</a>
+      </div>
+    </section>
+    
+
+  </main>
+
+  <footer>
+    <p>2026-Muhammad Fadhil Hafidlo Annabil</p>
+  </footer>
+
+</body>
+</html>
